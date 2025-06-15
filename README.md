@@ -19,8 +19,7 @@
 - [Preview](#preview)
 - [Future Roadmap](#future-roadmap)
 - [Contributing](#contributing)
-- [License](#license)
-- [Support](#support)
+
 
 ---
 
