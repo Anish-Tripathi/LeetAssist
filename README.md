@@ -310,11 +310,11 @@ We welcome contributions from the community! Here's how you can help:
 - Ensure all CI checks pass
 
 ### Areas for Contribution
-- 🐛 Bug fixes and improvements
-- ✨ New feature development
-- 📚 Documentation enhancements
-- 🎨 UI/UX improvements
-- 🔍 Testing and quality assurance
+-  Bug fixes and improvements
+-  New feature development
+-  Documentation enhancements
+-  UI/UX improvements
+-  Testing and quality assurance
 
 ---
 
