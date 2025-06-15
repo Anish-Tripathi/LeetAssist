@@ -1,0 +1,47 @@
+{
+  "manifest_version": 3,
+  "name": "LeetAssist - AI-Powered LeetCode Helper",
+  "version": "1.0.0",
+  "description": "Your Ultimate Guide to Acing LeetCode! AI-powered assistance for problem solving, debugging, and optimization.",
+  
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  
+  "host_permissions": [
+    "https://leetcode.com/*"
+  ],
+  
+  "background": {
+    "service_worker": "src/background.ts",
+    "type": "module"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/problems/*"],
+      "js": ["src/content.tsx"],
+      "css": ["src/content.css"]
+    }
+  ],
+  
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "LeetAssist Settings"
+  },
+  
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon16.png",
+    "48": "icons/icon16.png",
+    "128": "icons/icon16.png"
+  },
+  
+  "web_accessible_resources": [
+    {
+      "resources": ["src/content.css"],
+      "matches": ["https://leetcode.com/*"]
+    }
+  ]
+}

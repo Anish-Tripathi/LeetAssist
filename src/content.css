@@ -1,0 +1,288 @@
+/* LeetAssist Extension Styles */
+#leetassist-root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10000;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+#leetassist-root * {
+  box-sizing: border-box;
+}
+
+.leetassist-float-button {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 56px;
+  height: 56px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  pointer-events: auto;
+  box-shadow: 0 8px 32px rgba(102, 126, 234, 0.3);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.leetassist-float-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(102, 126, 234, 0.4);
+}
+
+.leetassist-float-button svg {
+  color: white;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.leetassist-tooltip {
+  position: absolute;
+  right: 64px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
+  backdrop-filter: blur(10px);
+}
+
+.leetassist-float-button:hover .leetassist-tooltip {
+  opacity: 1;
+}
+
+.leetassist-panel {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 420px;
+  height: 600px;
+  background: rgba(17, 24, 39, 0.95);
+  border-radius: 16px;
+  border: 1px solid rgba(75, 85, 99, 0.3);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+  pointer-events: auto;
+  display: flex;
+  flex-direction: column;
+  animation: slideIn 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.leetassist-header {
+  padding: 20px;
+  border-bottom: 1px solid rgba(75, 85, 99, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leetassist-logo {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leetassist-tabs {
+  display: flex;
+  padding: 0 20px;
+  border-bottom: 1px solid rgba(75, 85, 99, 0.3);
+}
+
+.leetassist-tab {
+  flex: 1;
+  padding: 12px 8px;
+  background: none;
+  border: none;
+  color: rgba(156, 163, 175, 0.8);
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.leetassist-tab:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.leetassist-tab.active {
+  color: #60a5fa;
+}
+
+.leetassist-tab.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #60a5fa, #3b82f6);
+}
+
+.leetassist-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.leetassist-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.leetassist-content::-webkit-scrollbar-track {
+  background: rgba(75, 85, 99, 0.2);
+  border-radius: 3px;
+}
+
+.leetassist-content::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, 0.3);
+  border-radius: 3px;
+}
+
+.leetassist-content::-webkit-scrollbar-thumb:hover {
+  background: rgba(156, 163, 175, 0.5);
+}
+
+.leetassist-analyze-btn {
+  width: 100%;
+  padding: 12px 16px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-bottom: 20px;
+}
+
+.leetassist-analyze-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+}
+
+.leetassist-analyze-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.leetassist-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top: 2px solid white;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.leetassist-analysis {
+  background: rgba(31, 41, 55, 0.5);
+  border: 1px solid rgba(75, 85, 99, 0.3);
+  border-radius: 12px;
+  padding: 16px;
+  color: rgba(229, 231, 235, 0.9);
+  line-height: 1.6;
+}
+
+.leetassist-followup {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(75, 85, 99, 0.3);
+}
+
+.leetassist-input {
+  background: rgba(55, 65, 81, 0.5);
+  border: 1px solid rgba(75, 85, 99, 0.5);
+  border-radius: 8px;
+  padding: 8px 12px;
+  color: white;
+  font-size: 13px;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.leetassist-input:focus {
+  border-color: #60a5fa;
+  box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.1);
+}
+
+.leetassist-input::placeholder {
+  color: rgba(156, 163, 175, 0.6);
+}
+
+.leetassist-send-btn {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.leetassist-send-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+.leetassist-send-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .leetassist-panel {
+    width: calc(100vw - 32px);
+    height: calc(100vh - 120px);
+    bottom: 16px;
+    right: 16px;
+  }
+  
+  .leetassist-float-button {
+    bottom: 16px;
+    right: 16px;
+  }
+}
