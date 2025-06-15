@@ -256,7 +256,7 @@ LeetAssist/
 ## 🔮 Future Roadmap
 
 <div align="center">
-  <img src="/screenshots/future-work.png" alt="Future Development Plans" width="300" height="300" style="border: 2px solid #ddd; border-radius: 8px; margin: 20px;">
+  <img src="/screenshots/future-work.png" alt="Future Development Plans" width="300" height="500" style="border: 2px solid #ddd; border-radius: 8px; margin: 20px;">
 </div>
 
 ### Planned Enhancements (Version 2.0)
