@@ -93,16 +93,17 @@ LeetAssist is an intelligent Chrome extension designed to revolutionize your Lee
     </td>
   </tr>
   <tr>
+         <img src="/screenshots/Preview5.jpg" alt="Complexity Insights" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
+      <br>
+      <strong>Complexity Insights</strong>
+    </td>
     <td align="center" style="padding: 20px;">
       <img src="/screenshots/Preview6.jpg" alt="Solution Analysis" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
       <br>
       <strong>Solution Analysis</strong>
     </td>
     <td align="center" style="padding: 20px;">
-      <img src="/screenshots/Preview5.jpg" alt="Complexity Insights" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
-      <br>
-      <strong>Complexity Insights</strong>
-    </td>
+ 
   </tr>
  
 </table>
