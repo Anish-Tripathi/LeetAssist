@@ -68,40 +68,43 @@ LeetAssist is an intelligent Chrome extension designed to revolutionize your Lee
 
 <table>
   <tr>
-    <td align="center" style="padding: 20px;">
-      <img src="/screenshots/preview1.png" alt="Main Interface" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
-      <br>
-      <strong>Main Interface</strong>
-    </td>
-    <td align="center" style="padding: 20px;">
-      <img src="/screenshots/preview2.jpg" alt="API Configuration" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
+       <td align="center" style="padding: 20px;">
+      <img src="/screenshots/Preview3.jpg" alt="API Configuration" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
       <br>
       <strong>API Configuration</strong>
     </td>
+    <td align="center" style="padding: 20px;">
+      <img src="/screenshots/Preview2.jpg" alt="Main Interface" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
+      <br>
+      <strong>Main Interface</strong>
+    </td>
+ 
   </tr>
   <tr>
     <td align="center" style="padding: 20px;">
-      <img src="/screenshots/preview3.jpg" alt="Problem Explanation" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
+      <img src="/screenshots/Preview4.jpg" alt="Problem Explanation" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
       <br>
       <strong>Problem Explanation</strong>
     </td>
     <td align="center" style="padding: 20px;">
-      <img src="/screenshots/preview4.jpg" alt="Code Debugging" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
+      <img src="/screenshots/Preview1.jpg" alt="Code Debugging" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
       <br>
       <strong>Code Debugging</strong>
     </td>
   </tr>
   <tr>
+     <td align="center" style="padding: 20px;">
+      <img src="/screenshots/Preview5.jpg" alt="Complexity Insights" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
+      <br>
+      <strong>Complexity Insights</strong>
+    </td>
     <td align="center" style="padding: 20px;">
-      <img src="/screenshots/preview5.jpg" alt="Solution Analysis" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
+      <img src="/screenshots/Preview6.jpg" alt="Solution Analysis" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
       <br>
       <strong>Solution Analysis</strong>
     </td>
     <td align="center" style="padding: 20px;">
-      <img src="/screenshots/preview6.jpg" alt="Complexity Insights" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
-      <br>
-      <strong>Complexity Insights</strong>
-    </td>
+ 
   </tr>
  
 </table>
