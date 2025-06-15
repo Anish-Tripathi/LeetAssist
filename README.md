@@ -59,6 +59,68 @@ LeetAssist is an intelligent Chrome extension designed to revolutionize your Lee
 
 ---
 
+---
+
+## 🖼️ Preview
+
+<details>
+<summary><strong>📸 Click to view the extension</strong></summary>
+
+<table>
+  <tr>
+    <td align="center" style="padding: 20px;">
+      <img src="/screenshots/preview1.png" alt="Main Interface" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
+      <br>
+      <strong>Main Interface</strong>
+    </td>
+    <td align="center" style="padding: 20px;">
+      <img src="/screenshots/preview2.png" alt="API Configuration" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
+      <br>
+      <strong>API Configuration</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding: 20px;">
+      <img src="/screenshots/preview3.png" alt="Problem Explanation" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
+      <br>
+      <strong>Problem Explanation</strong>
+    </td>
+    <td align="center" style="padding: 20px;">
+      <img src="/screenshots/preview4.png" alt="Code Debugging" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
+      <br>
+      <strong>Code Debugging</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding: 20px;">
+      <img src="/screenshots/preview5.png" alt="Solution Analysis" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
+      <br>
+      <strong>Solution Analysis</strong>
+    </td>
+    <td align="center" style="padding: 20px;">
+      <img src="/screenshots/preview6.png" alt="Complexity Insights" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
+      <br>
+      <strong>Complexity Insights</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding: 20px;">
+      <img src="/screenshots/preview7.png" alt="Community Solutions" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
+      <br>
+      <strong>Community Solutions</strong>
+    </td>
+    <td align="center" style="padding: 20px;">
+      <img src="/screenshots/preview8.png" alt="Learning Resources" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
+      <br>
+      <strong>Learning Resources</strong>
+    </td>
+  </tr>
+</table>
+
+</details>
+
+---
+
 ## 🚀 Installation
 
 ### Prerequisites
@@ -196,66 +258,6 @@ LeetAssist/
 - API keys are stored locally in Chrome storage
 - Keys are encrypted and never shared externally
 - You can update or remove keys anytime through settings
-
----
-
-## 🖼️ Preview
-
-<details>
-<summary><strong>📸 Click to view the extension</strong></summary>
-
-<table>
-  <tr>
-    <td align="center" style="padding: 20px;">
-      <img src="/screenshots/preview1.png" alt="Main Interface" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
-      <br>
-      <strong>Main Interface</strong>
-    </td>
-    <td align="center" style="padding: 20px;">
-      <img src="/screenshots/preview2.png" alt="API Configuration" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
-      <br>
-      <strong>API Configuration</strong>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" style="padding: 20px;">
-      <img src="/screenshots/preview3.png" alt="Problem Explanation" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
-      <br>
-      <strong>Problem Explanation</strong>
-    </td>
-    <td align="center" style="padding: 20px;">
-      <img src="/screenshots/preview4.png" alt="Code Debugging" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
-      <br>
-      <strong>Code Debugging</strong>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" style="padding: 20px;">
-      <img src="/screenshots/preview5.png" alt="Solution Analysis" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
-      <br>
-      <strong>Solution Analysis</strong>
-    </td>
-    <td align="center" style="padding: 20px;">
-      <img src="/screenshots/preview6.png" alt="Complexity Insights" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
-      <br>
-      <strong>Complexity Insights</strong>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" style="padding: 20px;">
-      <img src="/screenshots/preview7.png" alt="Community Solutions" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
-      <br>
-      <strong>Community Solutions</strong>
-    </td>
-    <td align="center" style="padding: 20px;">
-      <img src="/screenshots/preview8.png" alt="Learning Resources" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
-      <br>
-      <strong>Learning Resources</strong>
-    </td>
-  </tr>
-</table>
-
-</details>
 
 ---
 
