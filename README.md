@@ -256,7 +256,7 @@ LeetAssist/
 ## 🔮 Future Roadmap
 
 <div align="center">
-  <img src="/screenshots/future-work.png" alt="Future Development Plans" width="500" style="border: 2px solid #ddd; border-radius: 8px; margin: 20px;">
+  <img src="/screenshots/future-work.png" alt="Future Development Plans" width="300" height="500" style="border: 2px solid #ddd; border-radius: 8px; margin: 20px;">
 </div>
 
 ### Planned Enhancements (Version 2.0)
@@ -310,11 +310,11 @@ We welcome contributions from the community! Here's how you can help:
 - Ensure all CI checks pass
 
 ### Areas for Contribution
-- 🐛 Bug fixes and improvements
-- ✨ New feature development
-- 📚 Documentation enhancements
-- 🎨 UI/UX improvements
-- 🔍 Testing and quality assurance
+-  Bug fixes and improvements
+-  New feature development
+-  Documentation enhancements
+-  UI/UX improvements
+-  Testing and quality assurance
 
 ---
 
