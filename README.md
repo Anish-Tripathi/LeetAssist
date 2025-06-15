@@ -39,7 +39,7 @@ LeetAssist is an intelligent Chrome extension designed to revolutionize your Lee
 
 ##  Features
 
-### 🤖 AI-Powered Assistance
+### AI-Powered Assistance
 - **Multi-Model Support**: Choose between OpenAI GPT and Google Gemini
 - **Contextual Understanding**: Smart analysis of LeetCode problems
 - **Real-time Guidance**: Instant help while coding
@@ -154,27 +154,27 @@ LeetAssist is an intelligent Chrome extension designed to revolutionize your Lee
 
 ### Core Functions
 
-#### 📝 Problem Analysis
+####  Problem Analysis
 - Click **"Explain Problem"** to get a detailed breakdown of the problem statement
 - Understand requirements, constraints, and expected outputs
 
-#### 💡 Solution Guidance  
+####  Solution Guidance  
 - Use **"Best Approach"** to discover optimal solution strategies
 - Get step-by-step algorithmic guidance
 
-#### 🐛 Code Debugging
+####  Code Debugging
 - Paste your code and click **"Debug Code"** for error analysis
 - Receive specific suggestions for fixing issues
 
-#### ⚡ Complexity Analysis
+####  Complexity Analysis
 - Click **"Complexity"** to understand time and space complexity
 - Learn about optimization opportunities
 
-#### 🎥 Learning Resources (Not Live)
+####  Learning Resources (Not Live)
 - Access **"Video Tutorials"** for visual explanations
 - Get curated learning content for similar problems
 
-#### 🏃‍♂️ Quick Solutions
+####  Quick Solutions
 - Use **"Dry Run"** to trace through your algorithm
 - Validate logic before submitting
 
@@ -260,25 +260,25 @@ LeetAssist/
 
 ### Planned Enhancements (Version 2.0)
 
-#### 🎯 Specialized Sections
+####  Specialized Sections
 - **Dedicated Debugging Panel**: Separate interface for code analysis
 - **Complexity Calculator**: Standalone tool for performance metrics
 - **Solution Comparator**: Side-by-side approach analysis
 - **Test Case Generator**: Custom test case creation
 
 
-#### 📹 Video Integration
+####  Video Integration
 - **YouTube Tutorial Generation**: AI-powered video explanations
 - **Interactive Walkthroughs**: Step-by-step visual guides
 - **Community Video Curation**: Best educational content compilation
 
-#### 🧠 Advanced AI Features
+####  Advanced AI Features
 - **Pattern Recognition**: Identify problem-solving patterns
 - **Personalized Learning**: Adaptive difficulty recommendations  
 - **Progress Tracking**: Comprehensive skill development analytics
 - **Interview Simulation**: Mock coding interview practice
 
-#### 🔧 Technical Improvements
+####  Technical Improvements
 - **Offline Mode**: Core functionality available even without an internet connection
 - **IDE Integration**: Seamless support with VS Code and IntelliJ plugins
 - **Mobile Companion**: React Native-powered mobile app for on-the-go access
