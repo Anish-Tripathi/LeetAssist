@@ -1,7 +1,7 @@
 # LeetAssist: AI-Powered Chrome Extension for LeetCode
 
 <div align="center">
-  <img src="/screenshots/logo.png" alt="LeetAssist Logo" width="200" height="200">
+  <img src="/screenshots/logo.png" alt="LeetAssist Logo" width="400" height="200">
   <h3>AI-Powered Chrome Extension for LeetCode Problem Solving</h3>
   <p>Enhance your coding practice with intelligent assistance, debugging, and optimization suggestions</p>
 </div>
