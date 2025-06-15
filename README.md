@@ -86,7 +86,7 @@ LeetAssist is an intelligent Chrome extension designed to revolutionize your Lee
       <strong>Problem Explanation</strong>
     </td>
     <td align="center" style="padding: 20px;">
-      <img src="/screenshots/Preview1.png" alt="Code Debugging" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
+      <img src="/screenshots/preview1.png" alt="Code Debugging" width="400" style="border: 2px solid #ddd; border-radius: 8px; margin: 10px;">
       <br>
       <strong>Code Debugging</strong>
     </td>
