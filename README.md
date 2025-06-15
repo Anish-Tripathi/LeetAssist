@@ -24,7 +24,7 @@
 
 ---
 
-## 🎯 Overview
+## Overview
 
 LeetAssist is an intelligent Chrome extension designed to revolutionize your LeetCode problem-solving experience. Powered by advanced AI models including OpenAI GPT and Google Gemini, it provides comprehensive assistance for coding interviews and competitive programming preparation.
 
