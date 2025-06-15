@@ -8,7 +8,7 @@
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -38,21 +38,21 @@ LeetAssist is an intelligent Chrome extension designed to revolutionize your Lee
 
 ---
 
-## ✨ Features
+##  Features
 
 ### 🤖 AI-Powered Assistance
 - **Multi-Model Support**: Choose between OpenAI GPT and Google Gemini
 - **Contextual Understanding**: Smart analysis of LeetCode problems
 - **Real-time Guidance**: Instant help while coding
 
-### 🔧 Problem Solving Tools
+###  Problem Solving Tools
 - **Problem Statement Explanation**: Clear breakdown of requirements
 - **Edge Case Detection**: Identify corner cases automatically
 - **Code Debugging**: Step-by-step error resolution
 - **Complexity Analysis**: Time and space complexity evaluation
 - **Solution Generation**: Complete, optimized code solutions
 
-### 📚 Learning Enhancement
+###  Learning Enhancement
 - **Test Case Explanation**: Understand why tests pass or fail
 - **Video Solutions**: Explore top-rated youtube video approaches
 - **Interactive Q&A**: Ask specific questions about problems
@@ -61,7 +61,7 @@ LeetAssist is an intelligent Chrome extension designed to revolutionize your Lee
 
 ---
 
-## 🖼️ Preview
+##  Preview
 
 <details>
 <summary><strong>📸 Click to view the extension</strong></summary>
@@ -113,7 +113,7 @@ LeetAssist is an intelligent Chrome extension designed to revolutionize your Lee
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 - Google Chrome browser (version 88+)
@@ -145,7 +145,7 @@ LeetAssist is an intelligent Chrome extension designed to revolutionize your Lee
 
 ---
 
-## 📖 Usage
+##  Usage
 
 ### Getting Started
 1. **Navigate to LeetCode**: Open any LeetCode problem page
@@ -187,7 +187,7 @@ LeetAssist is an intelligent Chrome extension designed to revolutionize your Lee
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 LeetAssist/
@@ -230,7 +230,7 @@ LeetAssist/
 
 ---
 
-## 🔑 API Configuration
+##  API Configuration
 
 ### Supported Models
 
@@ -253,7 +253,7 @@ LeetAssist/
 
 ---
 
-## 🔮 Future Roadmap
+##  Future Roadmap
 
 <div align="center">
   <img src="/screenshots/future-work.png" alt="Future Development Plans" width="300" height="500" style="border: 2px solid #ddd; border-radius: 8px; margin: 20px;">
@@ -289,7 +289,7 @@ LeetAssist/
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions from the community! Here's how you can help:
 
